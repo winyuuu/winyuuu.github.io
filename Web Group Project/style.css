@@ -65,6 +65,20 @@ body {
     top: 0;
     left:210px;
     width: 100%;
+    z-index:4;
+  }
+
+  #cnavbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#11141B;
+    position: fixed;
+    top: 0;
+    left:210px;
+    width: 100%;
+    z-index:4;
   }
 
   .navbar li {
