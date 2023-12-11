@@ -1,0 +1,717 @@
+body {
+      background-color:#11141B;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    aside {
+      font-family: 'Hedvig Letters Serif', serif;
+      font-family: 'Playfair Display', serif;
+      width: 170px;
+      background-color: #242633;
+      color: white;
+      padding: 20px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      
+    }
+    
+    aside a {
+
+      color: white; 
+      text-decoration: none;
+    }
+
+    main {
+      flex: 1;
+      padding: 20px;
+    }
+
+    main{
+      font-family: 'Hedvig Letters Serif', serif;
+      font-family: 'Libre Baskerville', serif;
+      color:white;
+    }
+    main{
+      background-image: url('https://media.tenor.com/xDH6oELEQs4AAAAC/stars-sky.gif');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      margin: 0;
+  }
+
+
+    a{
+      text-decoration: none;
+    }
+
+
+    #new{
+      font-family:Vina Sans;
+    }
+
+  main {margin: 0;}
+
+  .navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#11141B;
+    position: fixed;
+    top: 0;
+    left:210px;
+    width: 100%;
+  }
+
+  .navbar li {
+    float: left;
+  }
+
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
+  li a:hover {
+  text-decoration: underline;
+  }
+
+  .link{
+      font-family: 'Hedvig Letters Serif', serif;
+      font-family: 'Libre Baskerville', serif;
+      font-size: 1.5em;
+  }
+
+.socialmedia{
+    text-align:center;
+    display:inline;
+    background-color: #5c5c5c;
+    border-radius: 100px;
+    margin:10px;
+}
+.footerarea{
+    border:2px solid #5c5c5c;
+}
+
+.inline-containerhouse{
+  display: flex;
+  align-items: center;
+}
+
+#motto{
+  margin:100px;
+}
+
+.jh1h2{
+  text-align: center;
+}
+
+.motto1{
+  text-align:left;
+}
+
+#main{
+  margin-left:200px;
+}
+
+#iframe{
+  margin-left:400px;
+}
+
+.login-container {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.loginlabel {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.logininput {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+.loginbutton {
+    background-color: #3d3485;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.housebutton{
+  background-color: #3d3485;
+  color:white;
+}
+
+#scrollToTopBtn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: none;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            cursor: pointer;
+}
+
+#loginlink{
+  color:white;
+  text-decoration: none;
+}
+
+#loginlink:hover{
+  text-decoration: underline;
+}
+
+.jquestion {
+            background-color: rgba(255, 255, 255, 0.46);
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+}
+
+.jresult {
+            display: none;
+            text-align: center;
+}
+
+.jsortingimg {
+            max-width: 100%;
+            height: auto;
+            margin: 20px;
+}
+
+
+
+#csl{
+     margin: 0;
+      display: block;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+}
+
+#ccontainer {
+    width: 60%; /* 设置container的宽度 */
+    overflow: hidden;
+    /*position: relative;*/
+}
+
+.cdivision {
+    width: 100%;
+    float: left;
+    transition: transform 0.5s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.ccontent{
+    max-width: 80%; /* 设置内容的最大宽度 */
+}
+
+.cimg {
+    width: 100%; /* 图片充满整个division */
+    height: auto; /* 保持宽高比 */
+}
+
+.cmap {
+    display: none;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.csltitle{
+    font-family:'Libre Baskerville', serif;
+}
+
+
+
+
+#ctitle {
+  align-items: center;
+  background:#11141B;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-family:'Libre Baskerville', serif;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  padding: 100px;
+}
+
+#cletter {
+    font-size: 10vw;
+    line-height: 1;
+    display: flex;
+    text-align: center;
+}
+
+#cletter > span {
+  display: inline-block;
+  overflow: hidden;
+  transition-duration: 0.2s;
+  transition-property: transform;
+}
+
+#cletter > span span {
+  display: inline-block;
+  transition-duration: 0.5s;
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+#cletter > span:nth-child(odd) {
+  transform: translateY(50%);
+}
+
+#cletter > span:nth-child(odd) span {
+  transform: translateY(-100%);
+}
+
+#cletter> span:nth-child(even) {
+  transform: translateY(-50%);
+}
+
+#cletter > span:nth-child(even) span {
+  transform: translateY(100%);
+}
+
+#cletter.loaded  > span {
+  transform: translateY(0);
+}
+
+#cletter.loaded > span span {
+  transform: translateY(0);
+}
+/*button*/
+:root {
+  --fuschia: #ff0081;
+  --button-bg: var(--fuschia);
+  --button-text-color: #fff;
+  --baby-blue: #f8faff;
+}
+.bubbly-button{
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    display: inline-block;
+    font-size: 1em;
+    padding: 1em 2em;
+    margin-top: 100px;
+    margin-bottom: 60px;
+  -webkit-appearance: none;
+    appearance: none;
+    color: #1B45B0;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+    box-shadow: 0 2px 25px rgba(255, 0, 130, 0.5);
+  
+  &:focus {
+    outline: 0;
+  }
+  
+  &:before, &:after{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 140%;
+    height: 100%;
+    left: -20%;
+    z-index: -1000;
+    transition: all ease-in-out 0.5s;
+    background-repeat: no-repeat;
+  }
+  
+  &:before{
+    display: none;
+    top: -75%;
+    background-image:  
+      radial-gradient(circle, $button-bg 20%, transparent 20%),
+    radial-gradient(circle,  transparent 20%, $button-bg 20%, transparent 30%),
+    radial-gradient(circle, $button-bg 20%, transparent 20%), 
+    radial-gradient(circle, $button-bg 20%, transparent 20%),
+    radial-gradient(circle,  transparent 10%, $button-bg 15%, transparent 20%),
+    radial-gradient(circle, $button-bg 20%, transparent 20%),
+    radial-gradient(circle, $button-bg 20%, transparent 20%),
+    radial-gradient(circle, $button-bg 20%, transparent 20%),
+    radial-gradient(circle, $button-bg 20%, transparent 20%);
+  background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
+  //background-position: 0% 80%, -5% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%, 50% 50%, 65% 20%, 85% 30%;
+  }
+  
+  &:after{
+    display: none;
+    bottom: -75%;
+    background-image:  
+    radial-gradient(circle, $button-bg 20%, transparent 20%), 
+    radial-gradient(circle, $button-bg 20%, transparent 20%),
+    radial-gradient(circle,  transparent 10%, $button-bg 15%, transparent 20%),
+    radial-gradient(circle, $button-bg 20%, transparent 20%),
+    radial-gradient(circle, $button-bg 20%, transparent 20%),
+    radial-gradient(circle, $button-bg 20%, transparent 20%),
+    radial-gradient(circle, $button-bg 20%, transparent 20%);
+  background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 10% 10%, 20% 20%;
+  //background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%, 40% 90%, 55% 90%, 70% 90%;
+  }
+ 
+  &:active{
+    transform: scale(0.9);
+    background-color: darken($button-bg, 5%);
+    box-shadow: 0 2px 25px rgba(255, 0, 130, 0.2);
+  }
+  
+  &.animate{
+    &:before{
+      display: block;
+      animation: topBubbles ease-in-out 0.75s forwards;
+    }
+    &:after{
+      display: block;
+      animation: bottomBubbles ease-in-out 0.75s forwards;
+    }
+  }
+}
+
+
+@keyframes topBubbles {
+  0%{
+    background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%, 40% 90%, 55% 90%, 70% 90%;
+  }
+    50% {
+      background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%, 50% 50%, 65% 20%, 90% 30%;}
+ 100% {
+    background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%, 50% 40%, 65% 10%, 90% 20%;
+  background-size: 0% 0%, 0% 0%,  0% 0%,  0% 0%,  0% 0%,  0% 0%;
+  }
+}
+
+@keyframes bottomBubbles {
+  0%{
+    background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%, 70% -10%, 70% 0%;
+  }
+  50% {
+    background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%, 105% 0%;}
+ 100% {
+    background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%, 110% 10%;
+  background-size: 0% 0%, 0% 0%,  0% 0%,  0% 0%,  0% 0%,  0% 0%;
+  }
+}
+
+
+
+
+
+.jieshao{
+    text-transform: uppercase;  
+}
+.introduce{
+    color: white;
+}
+.pr{
+    display:flex;
+    align-items: center;
+    line-height: 18px;
+}
+.toto{
+        border: 3px solid #52527a;
+}
+
+.h5font{
+    margin-left: 10px;
+}
+
+
+.pkc{
+    width:250px;
+    margin: 5px;
+    transition: width 5s;
+  transition: hight 5s;
+    display:inline;
+    transition:width 0.4s;
+}
+.pkc:hover{
+  width: 255px;
+}
+
+.cilink{
+      font-family: 'Hedvig Letters Serif', serif;
+      font-family: 'Libre Baskerville', serif;
+      font-size: 1.35em;
+  }
+
+
+
+
+.blackground{
+    border: 1px solid white;
+    border-radius: 30px;
+    display:flex;
+    align-items: center;
+    line-height: 18px;
+}
+.mcimage{
+    height:300px;
+    border-radius: 1000px;
+    border: 5px solid rgb(80, 73, 139);
+    margin: 20px;
+
+}
+.ppp{
+    line-height: 25px;
+}
+.row{
+    width: 100%;
+    display: flex;    
+}
+.left-section{
+    width: 40%;
+    padding: 20px;
+}
+.right-section{
+    width: 60%;
+    padding: 20px;
+    text-align: center;
+}
+.Questions10{
+    opacity: 0.;
+}
+.start-quize{
+    text-decoration: none;
+    background-color: rgb(80, 73, 139);
+    color: white;
+    padding:15px 40px;
+    border-radius: 30px;
+
+}
+.start-quize:hover{
+    background-color: rgb(66, 60, 130);
+}
+
+
+
+/*homepage css*/
+#homepagetitle{
+    font-family:'Libre Baskerville', serif;
+    font-size: 40px;
+    color:white;
+    display:inline;
+    border-radius: 20px;
+    padding:5px;
+    transition: color 1s;
+    text-align: center;
+}
+
+#homepagetitle:hover{
+    text-shadow:2px 2px 2px white;
+    color: #5C5C5C;
+}
+
+.socialmedia{
+    text-align:center;
+    display:inline;
+    background-color: #5c5c5c;
+    border-radius: 100px;
+    margin:10px;
+}
+
+.footerarea{
+    border:2px solid #5c5c5c;
+}
+
+.filmcol{
+    width:25%;
+    float:left;
+}
+.filmcover{
+    width:220px;
+    height:330px;
+    border-radius:20px;
+}
+.filmcover:hover{
+    opacity: 90%;
+}
+.filmname{
+    font-family:font-family: 'Hedvig Letters Serif', serif;
+    font-size:10px;
+    text-align:center;
+}
+.filmrow{
+    padding-top:10px;
+}
+/*Actor introduction*/
+#actorintro{
+    font-family:font-family: 'Hedvig Letters Serif', serif;
+    font-size:20px;
+    text-align:center;
+    color:white;
+}
+.ib{
+   display: inline-block;
+  }
+  #c{
+   width: 100%;
+   margin-top: 50px;
+  }
+  #c img{
+   margin-right: -12px;
+  }
+
+.container {
+    display:flex;
+    gap: 1rem;
+    height: 275px;
+    width: 800px;
+}
+.container div{
+ margin-left: -5px;
+}
+
+.panel {
+    background-size: 200px 275px;
+    background-repeat: no-repeat;
+    flex: 1;
+    border-radius: 2rem;
+    position: relative;
+    transition: 0.5s ease, background-color 1s ease-in 100ms;  
+    }
+     .panel:hover {
+        flex: 3;
+        width: 150px;
+    }
+    #pa{
+      background-image: url(https://www.j-14.com/wp-content/uploads/2023/03/Harry-potter01.jpg?fit=800%2C1295&quality=86&strip=all);
+    }
+   #pb{
+      background-image: url(https://www.j-14.com/wp-content/uploads/2023/03/Harry-potter03.jpg?fit=1600%2C2029&quality=86&strip=all);
+    }
+    #pc{
+      background-image: url(https://www.j-14.com/wp-content/uploads/2023/03/Harry-potter05.jpg?fit=1000%2C1500&quality=86&strip=all);
+    }
+    #pd{
+      background-image: url(https://www.j-14.com/wp-content/uploads/2023/03/Harry-potter9.jpg?fit=1600%2C2456&quality=86&strip=all);
+    }
+    #pe{
+      background-image: url(https://www.j-14.com/wp-content/uploads/2023/06/Tom-felton01.jpg?fit=800%2C1234&quality=86&strip=all);
+    }
+    #pf{
+      background-image: url(https://pic.pimg.tw/youngerthansea/1504789954-2549121454_wn.jpg);
+    }
+    #pg{
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Bonnie_Wright_by_Gage_Skidmore_2.jpg/440px-Bonnie_Wright_by_Gage_Skidmore_2.jpg);
+    }
+
+#csu{
+    font-family:font-family: 'Hedvig Letters Serif', serif;
+    font-size:20px;
+    text-align:center;
+    color:white;
+}
+#csurvey{
+    background-color:rgb(89,89,89,0.46);
+    border-radius: 10px;
+}
+.cword{
+    color:white;
+    font-family:'Libre Baskerville', serif;
+}
+
+
+
+
+
+
+#quiz-container{
+    width: 100%;
+    border: 1px solid white;
+    display:flex;
+    align-items: center;
+    line-height: 30px;
+    max-width: 1000px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left:30px;
+    
+}
+.word-place,.TF-place{
+    width: 50%;
+    float: left;
+    text-align: center;
+    
+}
+.s-p{
+    background-color: rgba(89, 89, 89, 0.46);
+    padding: 150px 60px;
+    border: 1px solid none;
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-right: -30px;
+}
+
+
+.question{
+    display: none;
+}
+.TF-place{
+    display: block;
+    margin-top: 120px;
+    line-height: 80px;
+}
+.s-TF{
+    background-color: ghostwhite;
+    color:black;
+    padding: 20px 150px;
+    border-radius: 10px;
+    border: 1px solid none;
+}
+.s-TF:hover{
+    border: 4px solid rgb(204, 173, 116);
+}
+.apapap{
+    display:none;
+}
+
+.jblackground{
+    
+    border-radius: 30px;
+    
+}
+
+#quizdiv{
+  border: 1px solid white;
+  border-radius: 30px;
+  display:flex;
+  align-items: center;
+}

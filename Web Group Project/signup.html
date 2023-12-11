@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="keywords" content="email,password,user name.">
+<meta name="description" content="log in or sign up for the page.">
+<title>sign up</title>
+<link href="style.css" rel='stylesheet' type="text/css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="https://m.media-amazon.com/images/I/717d9psStjL.jpg">
+</head>
+<body>
+<aside>
+    <a href="HP Homepage.html"><img src="https://upload.wikimedia.org/wikipedia/en/b/b5/Harry-film-logo.png" alt="logo" width="160.5px" height="50px"></a>
+    
+</aside>
+
+<main id="main">
+    
+    <ul class="navbar">
+      <li><a href="characters intro.html">CHARACTERS INTRO</a></li>
+      <li><a href="house.html">HOUSES</a></li>
+      <li><a href="sorting.html">HOGWARTS SORTING</a></li>
+      <li><a href="QUIZZES.html">QUIZZES</a></li>
+      <li><a href="HP shooting location.html">SHOOTING LOCATION</a></li>
+      <li><a href="login.html">LOGIN</a></li>
+    </ul>
+    
+    <br>
+    <br>
+    <br>
+<center>
+<div class="login-container">
+    <h2 class="jh1h2">SIGN UP</h2>
+    <form id="loginForm">
+        <label class='loginlabel' for="username">Username:</label>
+        <input class='logininput' type="text" id="username" name="username" required>
+        <h6>Username must contain an uppercase letter</h6> 
+
+        <br><br>
+
+        <label class='loginlabel' for="email">Email:</label>
+        <input class='logininput' type="email" id="email" name="email" required>
+
+        <br><br>
+
+        <label for='dob'>Date of Birth:</label><br><br>
+        <input type="date" name='dob'><br><br><br>
+
+        <label for='option'>What is your gender?</label><br><br>
+        <select name='option'>
+            <option value='male'>male</option>
+            <option value='female'>female</option>
+        </select>
+
+        <br><br>
+
+        <label class='loginlabel' for="password">Password:</label>
+        <input class='logininput' type="password" id="password" name="password" required>
+        <h6>Password must not start with "123", must contain at least one uppercase letter,<br> and be at least 8 characters long.
+
+        <br><br>
+
+        <button class='loginbutton' type="button" onclick="validateSignup()">Sign Up</button><br>
+    </form>
+</div>
+</center>
+<br><br>
+<!--footer area-->
+    <div class='footerarea'>
+    <img src="https://upload.wikimedia.org/wikipedia/en/b/b5/Harry-film-logo.png" alt="logo" width="185.5px" height="50px">
+        
+    <a href='https://www.instagram.com/harrypotter/'><img src='https://assets.ifttt.com/images/channels/28/icons/monochrome_large.png' width='50px' height='50px' class='socialmedia'></a>
+  
+    <a href='https://twitter.com/wizardingworld'><img src='https://assets.ifttt.com/images/channels/2/icons/monochrome_large.png' width='50px' height='50px' class='socialmedia'></a>
+  
+    <a href='https://www.facebook.com/wizardingworld'><img src='https://assets.ifttt.com/images/channels/29/icons/monochrome_large.png' width='50px' height='50px' class='socialmedia'></a>
+    </div>
+<script src="housejs.js"></script>
+</main>
+</body>
+</html>

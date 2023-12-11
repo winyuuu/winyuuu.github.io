@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="keywords" content="Gryffindor,Hufflepuff,Ravenclaw,Slytherin">
+<meta name="description" content="do the houses sorting and see the result">
+<title>houses sorting</title>
+<link href="style.css" rel='stylesheet' type="text/css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="https://m.media-amazon.com/images/I/717d9psStjL.jpg">
+
+</head>
+<body>
+<aside>
+    <a href="HP Homepage.html"><img src="https://upload.wikimedia.org/wikipedia/en/b/b5/Harry-film-logo.png" alt="logo" width="160.5px" height="50px"></a>
+</aside>
+
+<main id="main">
+
+    <ul class="navbar">
+      <li><a href="characters intro.html">CHARACTERS INTRO</a></li>
+      <li><a href="house.html">HOUSES</a></li>
+      <li><a href="sorting.html">HOGWARTS SORTING</a></li>
+      <li><a href="QUIZZES.html">QUIZZES</a></li>
+      <li><a href="HP shooting location.html">SHOOTING LOCATION</a></li>
+      <li><a href="login.html">LOGIN</a></li>
+    </ul>
+
+  
+    <br>
+    <br>
+    <br>
+<center>
+<div id="questionnaire" class="jquestion">
+    <form id="quizForm">
+        <div class="jquestion">
+        <p>Q1:When you arrive in Diagon Alley, what do you want to buy first?</p>
+        <label><input type="radio" name="q1" value="1">A. Buy your own broomstick</label>
+        <label><input type="radio" name="q1" value="2">B. Magic books</label>
+        <label><input type="radio" name="q1" value="3">C. Wand</label>
+        <label><input type="radio" name="q1" value="4">D. Pets</label>
+    </div><br><br>
+    
+    <div class="jquestion">
+        <p>Q2:When you visit the Ministry of Magic, where do you want to go first?</p>
+        <label><input type="radio" name="q2" value="1">A. Department of Mysteries</label>
+        <label><input type="radio" name="q2" value="2">B. Department of Magical Traffic</label>
+        <label><input type="radio" name="q2" value="3">C. Department of Magical Law</label>
+        <label><input type="radio" name="q2" value="4">D. Magic Fountain</label>
+    </div><br><br>
+
+    <div class="jquestion">
+        <p>Q3:It's holiday, what do you want to do?</p>
+        <label><input type="radio" name="q3" value="1">A. Adventure</label>
+        <label><input type="radio" name="q3" value="2">B. Travel</label>
+        <label><input type="radio" name="q3" value="3">C. Go to the magic shop</label>
+        <label><input type="radio" name="q3" value="4">D. Stay at home</label>
+    </div><br><br>
+
+    <div class="jquestion">
+        <p>Q4:What is the scariest thing among monsters?</p>
+        <label><input type="radio" name="q4" value="1">A. None of them</label>
+        <label><input type="radio" name="q4" value="2">B. Basilisk</label>
+        <label><input type="radio" name="q4" value="3">C. Dementor</label>
+        <label><input type="radio" name="q4" value="4">D. Giant</label>
+    </div><br><br>
+
+    <div class="jquestion">
+        <p>Q5:Why do you want to participate in the Triwizard Tournament?</p>
+        <label><input type="radio" name="q5" value="1">A. To challenge yourself in the competition</label>
+        <label><input type="radio" name="q5" value="2">B. To make friends with foreign wizards</label>
+        <label><input type="radio" name="q5" value="3">C. To get 1,000 Galleons</label>
+        <label><input type="radio" name="q5" value="4">D. To go down in history</label>
+    </div><br><br>
+
+    <div class="jquestion">
+        <p>Q6:What kind of broomstick do you want to buy?</p>
+        <label><input type="radio" name="q6" value="1">A. Firebolt</label>
+        <label><input type="radio" name="q6" value="2">B. Cornflower</label>
+        <label><input type="radio" name="q6" value="3">C. Sweep Seven Stars</label>
+        <label><input type="radio" name="q6" value="4">D. Don’t buy it. It doesn’t matter whether the first-year students buy it or not.</label>
+    </div><br><br>
+
+    <div class="jquestion">
+        <p>Q7:Which Defense Against the Dark Arts teacher do you hate the most?</p>
+        <label><input type="radio" name="q7" value="1">A. Umbridge</label>
+        <label><input type="radio" name="q7" value="2">B. Lockhart</label>
+        <label><input type="radio" name="q7" value="3">C. Lupine</label>
+        <label><input type="radio" name="q7" value="4">D. All are okay</label>
+    </div><br><br>
+
+    <div class="jquestion">
+        <p>Q8:What do you think is the most unforgivable curse?</p>
+        <label><input type="radio" name="q8" value="1">A. The Death Curse</label>
+        <label><input type="radio" name="q8" value="2">B. The Soul-Imperius Curse</label>
+        <label><input type="radio" name="q8" value="3">C. The Cruciatus Curse</label>
+        <label><input type="radio" name="q8" value="4">D. These are all unforgivable</label>
+    </div>
+
+        <br><br>
+
+        <button class='loginbutton' type="button" onclick="jcalculateResult()">Submit to <br>see the result</button>
+    </form>
+</div>
+
+<div id="result1" class="jresult">
+    <h2 class="jh1h2">You belong to Gryffindor</h2>
+    <img class="jsortingimg" src="Gryffindor.webp" alt="Gryffindor" width="450px" height="450px">
+    <p>"Forti Animo Estote"</p>
+</div>
+
+<div id="result2" class="jresult">
+    <h2 class="jh1h2">You belong to Ravenclaw</h2>
+    <img class="jsortingimg" src="Ravenclaw.webp" alt="Ravenclaw" width="450px" height="450px">
+    <p>"Wit beyond measure is man's greatest treasure"</p>
+</div>
+
+<div id="result3" class="jresult">
+    <h2 class="jh1h2">You belong to Slytherin</h2>
+    <img class="jsortingimg" src="Slytherin.webp" alt="Slytherin" width="450px" height="450px">
+    <p>"Slytherin will help you on your way to greatness"</p>
+</div>
+
+<div id="result4" class="jresult">
+    <h2 class="jh1h2">You belong to Hufflepuff</h2>
+    <img class="jsortingimg" src="Hufflepuff.webp" alt="Hufflepuff" width="450px" height="450px">
+    <p>"Those patient Hufflepuffs are true and unafraid of toil"</p>
+</div>
+
+</center>
+<!-- Include other result divs similarly -->
+
+<button id="scrollToTopBtn" onclick="scrollToTop()">go back<br>to the <br>top</button>
+
+<!--footer area-->
+    <div class='footerarea'>
+    <img src="https://upload.wikimedia.org/wikipedia/en/b/b5/Harry-film-logo.png" alt="logo" width="185.5px" height="50px">
+        
+    <a href='https://www.instagram.com/harrypotter/'><img src='https://assets.ifttt.com/images/channels/28/icons/monochrome_large.png' width='50px' height='50px' class='socialmedia'></a>
+  
+    <a href='https://twitter.com/wizardingworld'><img src='https://assets.ifttt.com/images/channels/2/icons/monochrome_large.png' width='50px' height='50px' class='socialmedia'></a>
+  
+    <a href='https://www.facebook.com/wizardingworld'><img src='https://assets.ifttt.com/images/channels/29/icons/monochrome_large.png' width='50px' height='50px' class='socialmedia'></a>
+    </div>
+
+<script src="housejs.js"></script>
+</main>
+</body>
+</html>
