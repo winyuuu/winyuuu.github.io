@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+    <title>Aespa</title>
+    <!--font family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+     <link href='aespa_style.css' 
+        rel='stylesheet'
+        type='text/css'>
+</head>
+
+<body>
+    <table id='nav' width='100%'border="0">
+        <tr>
+            <th class='nh'><a href='homepage.html'>A</a></th>
+
+            <th class='nh'><a href='karina.html'>E</a></th>
+
+            <th class='nh'><a href='giselle.html'>S</a></th>
+
+            <th class='nh'><a href='winter.html'>P</a></th>
+
+            <th class='nh'><a href='ningning.html'>A</a></th>
+    
+            <th id='logo' ><img src='aespalogo.jpeg' width='50px'height='50px'></th>
+        </tr>
+    </table>
+
+
+    <br><div id='divfan'>
+        <p id='fan'>Fans prefer questionnaires</p></center>
+        <form action='123.php'>
+        <label for='fname'>first name:</label>
+        <input type='text' name='fname' required><br>
+        <label for='lname'>last name:</label>
+        <input type='text' name='lname'><br>
+
+        <label for='dob'>date to become an aespa fan:</label>
+        <input type='date' name='dob'><br>
+
+        <label for='email'>email:</label>
+        <input type='email' name='email'><br>
+
+        <label for='prefer'>which member is your bias</label>
+        <input type='radio' name='prefer' value='karina'>
+        <label for='prefer'>karina</label>
+        <input type='radio' name='prefer' value='giselle'>
+        <label for='prefer'>giselle</label>
+        <input type='radio' name='prefer' value='winter'>
+        <label for='prefer'>winter</label>
+        <input type='radio' name='prefer' value='ningning'>
+        <label for='prefer'>ningning</label><br>
+
+        <label for='album'>which aespa albums do you like</label>
+        <input type='checkbox' name='album' value='Black Mamba'>
+        <label for='album'>black mamba</label>
+        <input type='checkbox' name='album' value='Savage'>
+        <label for='album'>savage</label>
+        <input type='checkbox' name='album' value='Girls'>
+        <label for='album'>girls</label>
+        <input type='checkbox' name='album' value='My World'>
+        <label for='album'>my world</label>
+        <input type='checkbox' name='album' value='Drama'>
+        <label for='album'>drama</label>
+        <input type='checkbox' name='album' value='Armageddon'>
+        <label for='album'>armageddon</label><br>
+        <label for='score'>give aespa a score</label>
+        <input type='range' min='0' max='100' step='10' value='100' name='score'><br>
+        <label for='gender'>Gender:</label>
+        <select name='gender'>
+            <option name='gender' value='male'>Male</option>
+            <option name='gender' value='female'>Female</option>
+            <option name='gender' value='other'>Other</option>
+        </select><br>
+        <label for='file'>Any file you want to show aespa</label>
+        <input type='file' name='file'><br>
+        <label for='color'>The best color for aespa</label>
+        <input type='color' name='color'><br>
+        <label for='password'>Password:</label>
+        <input type='password' name='password' maxlength='5' minlength='3'><br>
+        <input type='submit'>
+    </form>
+        
+    </div>
+
+
+
+</body>
+</html>
